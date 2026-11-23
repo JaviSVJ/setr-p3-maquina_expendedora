@@ -37,7 +37,8 @@ Se habilita el perro guardián hardware con un margen de $4\text{ segundos}$ (`w
 
 ## 3. ESQUEMA EN FRITZING Y CIRCUITO REAL
 
-<img width="1186" height="740" alt="image" src="https://github.com/user-attachments/assets/e4754fb2-4b9d-4ed3-ae96-fa5f8fbe2458" />
+<img width="1186" height="740" alt="image" src="https://github.com/user-attachments/assets/b23ddfd5-fa55-47b3-8726-1912a9457f5d" />
+
 
 
 <img width="2000" height="924" alt="image" src="https://github.com/user-attachments/assets/2a3cf255-1dda-44b5-b9c0-43f81c7d2568" />
