@@ -35,13 +35,10 @@ Se emplea `ThreadController` para planificar 4 hilos periódicos independientes 
 ### C. Tolerancia a Fallos con Watchdog Timer (`avr/wdt.h`)
 Se habilita el perro guardián hardware con un margen de $4\text{ segundos}$ (`wdt_enable(WDTO_4S)`) al finalizar `setup()`, reiniciando su contador en cada iteración de `loop()` mediante `wdt_reset()`. Si algún sensor o bucle quedara bloqueado más de $4\text{ segundos}$, el microcontrolador se reinicia automáticamente de forma segura.
 
-
-
-## 3. ESQUEMA EN FRITZING
+## 3. ESQUEMA EN FRITZING Y CIRCUITO REAL
 
 <img width="1186" height="740" alt="image" src="https://github.com/user-attachments/assets/e4754fb2-4b9d-4ed3-ae96-fa5f8fbe2458" />
 
 
+<img width="2000" height="924" alt="image" src="https://github.com/user-attachments/assets/2a3cf255-1dda-44b5-b9c0-43f81c7d2568" />
 
-## 4. Montaje Físico y Pruebas Realizadas
-*[INSERTAR AQUÍ LAS FOTOS DEL MONTAJE EN PROTOBOARD Y PANTALLA LCD EN FUNCIONAMIENTO]*
